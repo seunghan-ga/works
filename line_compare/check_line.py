@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-from pymongo import MongoClient, ASCENDING, DESCENDING
+from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
-from bson.objectid import ObjectId
-from datetime import date, datetime, timedelta
-import time
 import os
 import argparse
-import cv2
-import shutil
-import numpy as np
 import sys
 
 

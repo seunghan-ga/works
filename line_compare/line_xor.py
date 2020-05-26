@@ -3,7 +3,6 @@
 
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
-import time
 import os
 import argparse
 import cv2
